@@ -15,7 +15,7 @@ setInterval(gettime,1000);
   return (
     <div className="container">
       <h1>{time} </h1>
-      <button onClick={gettime}>+!|\/| |_-~</button>
+      <button onClick={gettime}></button>
     </div>
   );
 }
