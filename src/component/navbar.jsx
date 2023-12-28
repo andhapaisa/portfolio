@@ -1,35 +1,40 @@
-import React from 'react'
-
-function Navbar(){
+import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
+import {links} from '../data'
+import '../component/navbar.css'
+const Navbar = () => {
+  const [showMenu, setShowMenu]=useState(false);
   return (
-    <div>
-      navbar
-    </div>
+    <nav className='nav'>
+      <div className={`${showMenu ? 'nav__menu show-menu' : 'nav__menu'}`} >
+        <ul className='nav__list'>
+          {links.map(({name,icon,path},index)=>{
+            return(
+              <li className='nav__item' key={index}>
+                <NavLink
+                 to={path}
+                  className={({isActive})=>
+                  isActive ? 'nav__link active-nav' : 'nav__link'}
+                
+                onClick={()=>setShowMenu(!showMenu)}
+                >
+                  {icon}
+                  <h3 className='nav__name'>{name}</h3>
+                </NavLink>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+
+      <div className={`${showMenu ? 'nav__toggle animated-toggle' : 'nav__toggle'}`} onClick={()=> setShowMenu(!showMenu)}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
   )
 }
 
 export default Navbar
-
-
-
-// import React from "react";
-
-// function App() {
-   
-
-//   return (
-    
-//     <div class="nav">
-//         <ul>
-//             <li class="home"><span class="material-symbols-outlined">home</span><span>HOME</span></li>
-//             <li class="about"><span class="material-symbols-outlined">person</span><span>ABOUT</span></li>
-//             <li class="skill"><span class="material-symbols-outlined">school</span><span>SKILL</span></li>
-//             <li class="resume"><span class="material-symbols-outlined">description</span><span>RESUME</span></li>
-//             <li class="experience"><span class="material-symbols-outlined">emoji_events</span><span>EXPERIENCE</span></li>
-//             <li class="contact"><span class="material-symbols-outlined">contact_page</span><span>CONTACT</span></li>
-//         </ul>
-//     </div>
-//   );
-// }
-
-// export default App;
