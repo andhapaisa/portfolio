@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import {links} from '../data'
 import '../component/navbar.css'
+import { FaMoon, FaSun } from 'react-icons/fa'
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false);
+ 
+
   return (
+    <div>
     <nav className='nav'>
       <div className={`${showMenu ? 'nav__menu show-menu' : 'nav__menu'}`} >
         <ul className='nav__list'>
@@ -34,6 +38,7 @@ const Navbar = () => {
       </div>
     </nav>
 
+</div>
   )
 }
 

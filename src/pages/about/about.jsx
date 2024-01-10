@@ -51,7 +51,7 @@ const About = () => {
                <h1>Satya's The Aryan School</h1>
               
                 <span>
-                  PCM with Physical Education <FaDotCircle /> April 2020 - July 2021 
+                  PCM with Physical Education <FaDotCircle /> April 2019 - July 2021 
                 </span>
                <span>
                 Scored : 92.60%

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/amank/Documents/webd udemy/react/myportfolio",
-      "program": "c:/Users/amank/Documents/webd udemy/react/myportfolio/build/Debug/outDebug",
+      "cwd": "c:/Users/amank/Documents/webd udemy/react/myportfolio/src",
+      "program": "c:/Users/amank/Documents/webd udemy/react/myportfolio/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

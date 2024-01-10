@@ -185,7 +185,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.google.com',
+        desc: 'https://amanak7.github.io/amanak7/login.html',
       },
     ],
   },

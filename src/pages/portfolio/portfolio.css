@@ -12,7 +12,7 @@
 .heading::after{
     content: 'Portfolio';
     margin-left:20px ;
-    color:var(--first-color);
+    color: hsl(271, 76%, 53%);
 
 }
 
@@ -38,7 +38,7 @@
 }
 
 .portfolio__hover{
-    background-color: var(--first-color);
+    background-color:  hsl(271, 76%, 53%);
     position: absolute;
     inset: 0;
     width: 25vw;
@@ -97,7 +97,7 @@ height: 50px;
 
 .modal__title{
     text-align: center;
-    color:var(--first-color);
+    color: hsl(271, 76%, 53%);
     font-size: var(--h2-font-size);
     letter-spacing: 2px;
     margin-bottom: 24px;
