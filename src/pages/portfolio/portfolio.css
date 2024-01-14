@@ -133,3 +133,7 @@ height: 50px;
     height: 350px;
     object-fit: cover;
 }
+
+.website:hover{
+    color: blueviolet;
+}

@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import {links} from '../data'
 import '../component/navbar.css'
-import { FaMoon, FaSun } from 'react-icons/fa'
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false);
  

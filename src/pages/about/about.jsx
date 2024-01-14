@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css';
 import Aboutimg from '../../assets/dp .png'
-import {FaDotCircle, FaDownload, FaRegHandPointRight} from 'react-icons/fa';
+import {FaDotCircle, FaDownload} from 'react-icons/fa';
 import CV from '../../assets/cv.pdf';
 import Items from '../../component/items';
 import Skill from '../../component/skill';

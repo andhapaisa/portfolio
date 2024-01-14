@@ -23,7 +23,7 @@ const Portfolioitems = ({img,title,details}) => {
 
          <ul className='modal__list grid' >
             {details.map(({icon,title,desc},index)=>{
-              if(index!=3) {
+              if(index!==3) {
                 return(
                     <li className='modal__item' key={index}>
                         <span className='item__icon'>{icon}</span>
@@ -40,7 +40,7 @@ const Portfolioitems = ({img,title,details}) => {
                         <span className='item__icon'>{icon}</span>
                         <div>
                             <span className='item__title'>{title}</span>
-                            <span className='item__details' ><a href={desc} target='_blank'>Website Link</a></span>
+                            <span className='item__details' ><a href={desc} target='_blank' className='website'>WebLink</a></span>
                         </div>
                     </li>
                 )

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaArrowCircleUp, FaArrowUp, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhone } from 'react-icons/fa';
+import { FaArrowCircleUp, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhone } from 'react-icons/fa';
 import './contact.css';
 import { Link } from 'react-router-dom';
 const Contact = () => {

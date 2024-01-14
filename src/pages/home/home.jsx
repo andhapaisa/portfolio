@@ -2,14 +2,9 @@ import React from "react";
 import Profile from "../../assets/dp .png";
 import { Link } from "react-router-dom";
 import {
-  FaArrowCircleUp,
-  FaArrowUp,
   FaGithub,
   FaInstagram,
   FaLinkedin,
-  FaLocationArrow,
-  FaMailBulk,
-  FaPhone,
 } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import "./home.css";
